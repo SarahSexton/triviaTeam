@@ -14,9 +14,9 @@
             "sourceMaps": true,
             "outFiles": [ "${workspaceRoot}/build/**/*.js" ],
             "env": {
-                "BASE_URI": "http://localhost:3978",
-                "MICROSOFT_APP_ID": "",
-                "MICROSOFT_APP_PASSWORD": "",
+                "BASE_URI": "https://914707ca.ngrok.io",
+                "MICROSOFT_APP_ID": "045f0130-26e7-4f74-b0a5-651d5c1d6564",
+                "MICROSOFT_APP_PASSWORD": "kzerJA83+tycQBVYM333}#]",
                 "LUIS_ENDPOINT_URI": "",
                 "EXTERNAL_APP_CONSUMER_KEY": "",
                 "EXTERNAL_APP_CONSUMER_SECRET": "",
@@ -27,7 +27,8 @@
                 "CHANNEL_STORAGE_TYPE": "",
                 "MONGODB_CONNECTION_STRING": "",
                 "MONGODB_BOT_STATE_COLLECTION": "",
-                "MONGODB_TEMP_TOKENS_COLLECTION": ""
+                "MONGODB_TEMP_TOKENS_COLLECTION": "",
+                "EVENT_GRID_KEY": ""
             }
         },
         {
@@ -53,7 +54,8 @@
                 "CHANNEL_STORAGE_TYPE": "",
                 "MONGODB_CONNECTION_STRING": "",
                 "MONGODB_BOT_STATE_COLLECTION": "",
-                "MONGODB_TEMP_TOKENS_COLLECTION": ""
+                "MONGODB_TEMP_TOKENS_COLLECTION": "",
+                "EVENT_GRID_KEY": ""
             }
         },
         {
@@ -82,7 +84,8 @@
                 "MONGODB_TEMP_TOKENS_COLLECTION": "",
                 "http_proxy": "http://localhost:8888",
                 "no_proxy": "login.microsoftonline.com",
-                "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+                "NODE_TLS_REJECT_UNAUTHORIZED": "0",
+                "EVENT_GRID_KEY": ""
             }
         },
         {
